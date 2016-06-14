@@ -1,6 +1,6 @@
 module CDN exposing (bootstrap, skeleton, reset)
 
-{-| CDN provides handly links to the web CSS frameworks you want at-hand.
+{-| CDN provides handy links to the web CSS frameworks you want at-hand.
 
 To use, just put the stylesheet you want in your top-level view function, like so:
 
