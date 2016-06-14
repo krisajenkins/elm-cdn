@@ -4,10 +4,11 @@ module CDN exposing (bootstrap, skeleton, reset)
 
 To use, just put the stylesheet you want in your top-level view function, like so:
 
-    rootView : Model -> Html Msg
+    import CDN exposing (bootstrap)
+
     rootView model =
         div []
-            [ CDN.bootstrap.css
+            [ bootstrap.css
             , ...
             ]
 

@@ -27,10 +27,12 @@ $ elm package install krisajenkins/elm-cdn
 Just put the stylesheet you want in your top-level view function, like so:
 
 ```
+import CDN exposing (bootstrap)
+
 rootView : Model -> Html Msg
 rootView model =
     div []
-        [ CDN.bootstrap.css
+        [ bootstrap.css
         , ...
         ]
 ```
