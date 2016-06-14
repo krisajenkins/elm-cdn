@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "summary": "Provides quick access to the frameworks you want to grab from a CDN.",
     "repository": "https://github.com/krisajenkins/elm-cdn.git",
     "license": "BSD3",
