@@ -1,6 +1,6 @@
 {
     "version": "1.1.0",
-    "summary": "Provides quick access to the frameworks you want to grab from a CDN.",
+    "summary": "Quick access to the CSS frameworks you need.",
     "repository": "https://github.com/krisajenkins/elm-cdn.git",
     "license": "BSD3",
     "source-directories": [
