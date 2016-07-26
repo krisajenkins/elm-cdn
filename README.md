@@ -37,6 +37,10 @@ rootView model =
         ]
 ```
 
+## Documentation
+
+[See the Elm package for full usage docs](http://package.elm-lang.org/packages/krisajenkins/elm-cdn/latest).
+
 ## Building
 
 Just call `make`.
