@@ -1,4 +1,4 @@
-module CDN exposing (bootstrap, skeleton, reset, foundation)
+module CDN exposing (bootstrap, skeleton, reset, foundation, fontAwesome)
 
 {-| CDN provides handy links to the web CSS frameworks you want at-hand.
 
@@ -12,7 +12,7 @@ To use, just put the stylesheet you want in your top-level view function, like s
             , ...
             ]
 
-@docs bootstrap, skeleton, reset, foundation
+@docs bootstrap, skeleton, reset, foundation, fontAwesome
 -}
 
 import Html exposing (..)
@@ -59,7 +59,16 @@ foundation =
     }
 
 
+{-| FontAwesome 4.
+-}
+fontAwesome : { css : Html msg }
+fontAwesome =
+    { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" }
 
+
+
+-- TODO https://github.com/timcreative/material-kit
+-- TODO http://demos.creative-tim.com/material-kit/index.html#
 ------------------------------------------------------------
 -- Utilities.
 ------------------------------------------------------------
