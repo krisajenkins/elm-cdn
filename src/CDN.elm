@@ -19,7 +19,7 @@ import Html exposing (..)
 import Html.Attributes exposing (..)
 
 
-{-| Bootstrap 3.
+{-| [Bootstrap 3](http://getbootstrap.com/)
 -}
 bootstrap :
     { css : Html msg
@@ -33,21 +33,21 @@ bootstrap =
     }
 
 
-{-| Skeleton 2.
+{-| [Skeleton 2](http://getskeleton.com/)
 -}
 skeleton : { css : Html msg }
 skeleton =
     { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" }
 
 
-{-| Eric Meyer's CSS reset.
+{-| [Eric Meyer's CSS reset](http://meyerweb.com/eric/tools/css/reset/)
 -}
 reset : { css : Html msg }
 reset =
     { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" }
 
 
-{-| Foundation 6.
+{-| [Foundation 6](http://foundation.zurb.com/)
 -}
 foundation :
     { css : Html msg
@@ -59,7 +59,7 @@ foundation =
     }
 
 
-{-| FontAwesome 4.
+{-| [FontAwesome 4](http://fontawesome.io/)
 -}
 fontAwesome : { css : Html msg }
 fontAwesome =
