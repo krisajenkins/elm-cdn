@@ -1,4 +1,11 @@
-module CDN exposing (bootstrap, skeleton, reset, foundation, fontAwesome)
+module CDN
+    exposing
+        ( bootstrap
+        , skeleton
+        , reset
+        , foundation
+        , fontAwesome
+        )
 
 {-| CDN provides handy links to the web CSS frameworks you want at-hand.
 
@@ -12,7 +19,11 @@ To use, just put the stylesheet you want in your top-level view function, like s
             , ...
             ]
 
-@docs bootstrap, skeleton, reset, foundation, fontAwesome
+@docs bootstrap
+@docs skeleton
+@docs reset
+@docs foundation
+@docs fontAwesome
 -}
 
 import Html exposing (..)
