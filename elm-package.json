@@ -1,5 +1,5 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "summary": "Quick access to the CSS frameworks you need.",
     "repository": "https://github.com/krisajenkins/elm-cdn.git",
     "license": "BSD3",
