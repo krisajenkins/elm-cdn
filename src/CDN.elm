@@ -77,6 +77,13 @@ fontAwesome =
     { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" }
 
 
+{-| [Bulma 0.1.2](http://bulma.io/)
+-}
+bulma : { css : Html msg }
+bulma =
+    { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.2/css/bulma.min.css" }
+
+
 
 -- TODO https://github.com/timcreative/material-kit
 -- TODO http://demos.creative-tim.com/material-kit/index.html#
