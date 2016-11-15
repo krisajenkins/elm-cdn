@@ -6,6 +6,7 @@ module CDN
         , foundation
         , fontAwesome
         , bulma
+        , pure
         )
 
 {-| CDN provides handy links to the web CSS frameworks you want at-hand.
@@ -26,6 +27,7 @@ To use, just put the stylesheet you want in your top-level view function, like s
 @docs foundation
 @docs fontAwesome
 @docs bulma
+@docs pure
 -}
 
 import Html exposing (..)
@@ -84,6 +86,13 @@ fontAwesome =
 bulma : { css : Html msg }
 bulma =
     { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.2/css/bulma.min.css" }
+
+
+{-| [Pure 0.6.0](http://purecss.io)
+-}
+pure : { css : Html msg }
+pure =
+    { css = stylesheet "http://yui.yahooapis.com/pure/0.6.0/pure-min.css" }
 
 
 
