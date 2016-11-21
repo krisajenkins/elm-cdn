@@ -8,6 +8,7 @@ module CDN
         , bulma
         , pure
         , bass
+        , wing
         )
 
 {-| CDN provides handy links to the web CSS frameworks you want at-hand.
@@ -30,6 +31,7 @@ To use, just put the stylesheet you want in your top-level view function, like s
 @docs bulma
 @docs pure
 @docs bass
+@docs wing
 -}
 
 import Html exposing (..)
@@ -102,6 +104,13 @@ pure =
 bass : { css : Html msg }
 bass =
     { css = stylesheet "https://unpkg.com/basscss@8.0.2/css/basscss.min.css" }
+
+
+{-| [Wing 0.1.9](http://usewing.ml)
+-}
+wing : { css : Html msg }
+wing =
+    { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/wingcss/0.1.9/wing.min.css" }
 
 
 
