@@ -7,6 +7,7 @@ module CDN
         , fontAwesome
         , bulma
         , pure
+        , wing
         )
 
 {-| CDN provides handy links to the web CSS frameworks you want at-hand.
@@ -28,6 +29,7 @@ To use, just put the stylesheet you want in your top-level view function, like s
 @docs fontAwesome
 @docs bulma
 @docs pure
+@docs wing
 -}
 
 import Html exposing (..)
@@ -93,6 +95,13 @@ bulma =
 pure : { css : Html msg }
 pure =
     { css = stylesheet "http://yui.yahooapis.com/pure/0.6.0/pure-min.css" }
+
+
+{-| [Wing 0.1.9](http://usewing.ml)
+-}
+wing : { css : Html msg }
+wing =
+    { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/wingcss/0.1.9/wing.min.css" }
 
 
 
