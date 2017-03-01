@@ -7,6 +7,7 @@ module CDN
         , fontAwesome
         , bulma
         , pure
+        , bass
         )
 
 {-| CDN provides handy links to the web CSS frameworks you want at-hand.
@@ -28,6 +29,7 @@ To use, just put the stylesheet you want in your top-level view function, like s
 @docs fontAwesome
 @docs bulma
 @docs pure
+@docs bass
 -}
 
 import Html exposing (..)
@@ -93,6 +95,13 @@ bulma =
 pure : { css : Html msg }
 pure =
     { css = stylesheet "http://yui.yahooapis.com/pure/0.6.0/pure-min.css" }
+
+
+{-| [Bass 8.0.2](http://basscss.com/)
+-}
+bass : { css : Html msg }
+bass =
+    { css = stylesheet "https://unpkg.com/basscss@8.0.2/css/basscss.min.css" }
 
 
 
