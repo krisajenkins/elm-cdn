@@ -82,7 +82,7 @@ foundation =
 -}
 fontAwesome : { css : Html msg }
 fontAwesome =
-    { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" }
+    { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" }
 
 
 {-| [Bulma 0.1.2](http://bulma.io/)
