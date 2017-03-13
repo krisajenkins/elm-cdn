@@ -82,14 +82,14 @@ foundation =
 -}
 fontAwesome : { css : Html msg }
 fontAwesome =
-    { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" }
+    { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" }
 
 
-{-| [Bulma 0.1.2](http://bulma.io/)
+{-| [Bulma 0.3.2](http://bulma.io/)
 -}
 bulma : { css : Html msg }
 bulma =
-    { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.2/css/bulma.min.css" }
+    { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css" }
 
 
 {-| [Pure 0.6.0](http://purecss.io)
