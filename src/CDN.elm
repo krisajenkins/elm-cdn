@@ -85,7 +85,7 @@ fontAwesome =
     { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" }
 
 
-{-| [Bulma 0.1.2](http://bulma.io/)
+{-| [Bulma 0.3.2](http://bulma.io/)
 -}
 bulma : { css : Html msg }
 bulma =
