@@ -10,6 +10,7 @@ module CDN
         , bass
         , colors
         , tachyons
+        , wing
         )
 
 {-| CDN provides handy links to the web CSS frameworks you want at-hand.
@@ -34,8 +35,9 @@ for you in a default way and provide more structure.
 @docs pure
 @docs foundation
 @docs bulma
+@docs wing
 
-# CSS Helper Libraries
+# CSS Libraries
 
 These are more "mix and match" libraries.
 
@@ -107,7 +109,7 @@ foundation =
 -}
 fontAwesome : { css : Html msg }
 fontAwesome =
-    { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" }
+    { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" }
 
 
 {-| [Bulma 0.1.2](http://bulma.io/)
@@ -115,7 +117,7 @@ fontAwesome =
 -}
 bulma : { css : Html msg }
 bulma =
-    { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.2/css/bulma.min.css" }
+    { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css" }
 
 
 {-| [Pure 0.6.0](http://purecss.io)
@@ -167,6 +169,14 @@ tachyons =
 colors : { css : Html msg }
 colors =
     { css = stylesheet "https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css" }
+
+
+{-| [Wing 0.1.9](http://usewing.ml)
+Minimal CSS Framework
+-}
+wing : { css : Html msg }
+wing =
+    { css = stylesheet "https://cdnjs.cloudflare.com/ajax/libs/wingcss/0.1.9/wing.min.css" }
 
 
 
