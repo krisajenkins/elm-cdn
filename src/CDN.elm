@@ -37,7 +37,7 @@ for you in a default way and provide more structure.
 
 # CSS Helper Libraries
 
-These are more "mix and match" libaraies.
+These are more "mix and match" libraries.
 
 @docs reset
 @docs fontAwesome
@@ -51,8 +51,8 @@ import Html.Attributes exposing (..)
 
 
 {-| [Bootstrap 3](http://getbootstrap.com/)
-Bootstrap is the most popular HTML, CSS, and JS framework for developing
-responsive, mobile first projects on the web.
+> _"Bootstrap is the most popular HTML, CSS, and JS framework for developing
+responsive, mobile first projects on the web."_
 -}
 bootstrap :
     { css : Html msg
@@ -67,7 +67,7 @@ bootstrap =
 
 
 {-| [Skeleton 2](http://getskeleton.com/)
-A dead simple, responsive boilerplate.
+> _"A dead simple, responsive boilerplate."_
 -}
 skeleton : { css : Html msg }
 skeleton =
@@ -75,8 +75,8 @@ skeleton =
 
 
 {-| [Eric Meyer's CSS reset](http://meyerweb.com/eric/tools/css/reset/)
-The goal of a reset stylesheet is to reduce browser inconsistencies in things
-like default line heights, margins and font sizes of headings, and so on.
+> _"The goal of a reset stylesheet is to reduce browser inconsistencies in things
+> like default line heights, margins and font sizes of headings, and so on."_
 -}
 reset : { css : Html msg }
 reset =
@@ -84,12 +84,12 @@ reset =
 
 
 {-| [Foundation 6](http://foundation.zurb.com/)
-A Framework for any device, medium, and accessibility. Foundation is a family of
- responsive front-end frameworks that make it easy to design beautiful responsive
-  websites, apps and emails that look amazing on any device. Foundation is
-  semantic, readable, flexible, and completely customizable. We’re constantly
-  adding new resources and code snippets, including these handy HTML templates
-  to help get you started!
+> _"A Framework for any device, medium, and accessibility. Foundation is a family of
+> responsive front-end frameworks that make it easy to design beautiful responsive
+> websites, apps and emails that look amazing on any device. Foundation is
+> semantic, readable, flexible, and completely customizable. We’re constantly
+> adding new resources and code snippets, including these handy HTML templates
+> to help get you started!"_
 -}
 foundation :
     { css : Html msg
@@ -102,7 +102,8 @@ foundation =
 
 
 {-| [FontAwesome 4](http://fontawesome.io/)
-The iconic font and CSS toolkit (font icons)
+> _"The iconic font and CSS toolkit"_
+(font icons)
 -}
 fontAwesome : { css : Html msg }
 fontAwesome =
@@ -110,7 +111,7 @@ fontAwesome =
 
 
 {-| [Bulma 0.1.2](http://bulma.io/)
-A modern CSS framework based on Flexbox
+> _"A modern CSS framework based on Flexbox"_
 -}
 bulma : { css : Html msg }
 bulma =
@@ -118,7 +119,7 @@ bulma =
 
 
 {-| [Pure 0.6.0](http://purecss.io)
-A set of small, responsive CSS modules that you can use in every web project.
+> _"A set of small, responsive CSS modules that you can use in every web project."_
 -}
 pure : { css : Html msg }
 pure =
@@ -126,29 +127,31 @@ pure =
 
 
 {-| [Bass 8.0.2](http://basscss.com/)
-Low-Level CSS Toolkit. (basically is an implementation of [functional CSS](https://marcelosomers.com/writing/rationalizing-functional-css/)).
+> _"Low-Level CSS Toolkit."_
+
+basically is an implementation of [functional CSS](https://marcelosomers.com/writing/rationalizing-functional-css/).
 
     import CDN exposing (bass)
 
     rootView model =
         div []
             [ bass.css
-            , bass.btnsCss
+            , bass.buttonsCss
             , ...
             ]
 
 Good to use with [colors](#colors) to style buttons and other things.
 -}
-bass : { css : Html msg, btnsCss : Html msg }
+bass : { css : Html msg, buttonsCss : Html msg }
 bass =
     { css = stylesheet "https://unpkg.com/basscss@8.0.2/css/basscss.min.css"
-    , btnsCss = stylesheet "https://unpkg.com/basscss-addons@1.0.0/modules/btn/index.css"
+    , buttonsCss = stylesheet "https://unpkg.com/basscss-addons@1.0.0/modules/btn/index.css"
     }
 
 
 {-| [Tachyons 4.6.1](http://tachyons.io/)
-Create fast loading, highly readable, and 100% responsive interfaces with as
-little css as possible.
+> _"Create fast loading, highly readable, and 100% responsive interfaces with as
+> little css as possible."_
 
 also is an implementation of [functional CSS](https://marcelosomers.com/writing/rationalizing-functional-css/).
 -}
@@ -158,8 +161,8 @@ tachyons =
 
 
 {-| [Colors 2.2.0](http://clrs.cc/)
-Skinning your prototypes just got easier - colors.css is a collection of skin
-classes to use while prototyping in the browser.
+> _"Skinning your prototypes just got easier - colors.css is a collection of skin
+> classes to use while prototyping in the browser."_
 -}
 colors : { css : Html msg }
 colors =
